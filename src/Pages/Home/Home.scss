@@ -1,0 +1,30 @@
+.Home{
+  display: flex;
+  flex-direction: column;
+  &_title{
+    background-image: url("/Images/Home_images/Background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 677px;
+    text-align: left;
+    position: relative;
+    &_content{
+      position: absolute;
+      top: 20px;
+      left: 200px;
+      width: 620px;
+      padding: 1em;
+      font-size: 24px;
+      font-weight: 500;
+      color: rgba(231, 116, 46, 1);
+      h1{
+        font-size: 60px;
+        font-weight: 600;
+      }
+      h5{
+        width: 528px;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}

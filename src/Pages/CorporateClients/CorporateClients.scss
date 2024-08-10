@@ -1,0 +1,56 @@
+.CorporateClients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__content{
+    width: 1080px;
+    padding-top: 20px;
+  }
+  &__field{
+    background-color: rgba(11, 20, 39, 1);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    p{
+      width: 940px;
+      color: white;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 31.2px;
+    }
+  }
+  &__priceList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1080px;
+    h1{
+      font-size: 48px;
+      font-weight: 500;
+      border-bottom: 3px solid rgba(231, 116, 46, 1);;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25.2px;
+    }
+    &-buttons{
+      display: flex;
+      a{
+        padding: 20px 32px;
+        border-radius: 10px;
+        background: radial-gradient(50% 50% at 50% 50%, #F7A70C 0%, #E7742E 100%);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10px;
+        &:hover{  
+          background: radial-gradient(50% 50% at 50% 50%, rgba(247, 167, 12, 0.8) 0%, rgba(231, 117, 46, 0.8) 100%);
+        }
+      }
+    }
+    
+  }
+}

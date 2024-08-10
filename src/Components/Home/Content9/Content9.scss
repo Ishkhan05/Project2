@@ -1,0 +1,34 @@
+.Content9{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  h1{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(231, 116, 46, 1);
+  }
+  &_content{
+    width: 1080px;
+    p{
+      font-size: 18px;
+      line-height: 25.2px;
+    }
+    .items{
+      display: flex;
+      justify-content: space-between;
+      h3{
+        width: 300px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+
+      }
+      p{
+        width: 736px;
+      }
+    }
+  }
+  
+}

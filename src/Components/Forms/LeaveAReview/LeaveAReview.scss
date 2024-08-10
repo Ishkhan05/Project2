@@ -1,0 +1,70 @@
+.LeaveAReview{
+  width: 520px;
+  display: flex;
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+      color: white;
+    }
+    input,
+    textarea{
+      width: 488px;
+      height: 48px;
+      border-radius: 10px;
+      border: none;
+      padding-left: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      &[type="checkbox"]{
+        width: 25px;
+        margin-right: 20px;
+        cursor: pointer;
+      };
+      &[type="submit"]{
+        background: radial-gradient(50% 50% at 50% 50%, #F7A70C 0%, #E7742E 100%);
+        width: 224px;
+        height: 65px;
+        border-radius: 10px;
+        padding: 0;
+        border: none;
+        font-size: 24px;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 20px 0 20px 0;
+        &:hover{ 
+          background: radial-gradient(50% 50% at 50% 50%, rgba(247, 167, 12, 0.8) 0%, rgba(231, 117, 46, 0.8) 100%);
+        }
+        &:disabled{
+          background: radial-gradient(50% 50% at 50% 50%, rgba(247, 167, 12, 0.2) 0%, rgba(231, 117, 46, 0.2) 100%);
+          color: rgba(11, 20, 39, 0.5);
+          
+        } 
+      }
+    }
+    textarea{
+      height: 100px;
+      padding-top: 20px;
+    }
+    span{
+      color: red;
+    }
+    .accept{
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      p{
+        font-size: 14px;
+        a{
+          color: red;
+          font-weight: 600;
+          display: inline;
+        }
+      }
+    }
+    .bi-exclamation-octagon-fill{
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.Content15{
+  background-color: rgba(11, 20, 39, 1);
+  padding: 2em;
+
+  &_content{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 3px solid rgba(231, 116, 46, 1);
+    border-top: 3px solid rgba(231, 116, 46, 1);
+    img{
+      height: 132px;
+    }
+    .info{
+      h2{
+        font-size: 48px;
+        font-weight: 500;
+        color: rgba(231, 116, 46, 1);
+        margin: 5px;
+      }
+      p{
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31.2px;
+      }
+    }
+  }
+}

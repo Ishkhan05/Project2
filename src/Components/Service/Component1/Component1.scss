@@ -1,0 +1,49 @@
+.Component1{
+  background-image: url("/Images/Services_images/background3.jpg");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0 2em 0;
+  &__content{
+    width: 1080px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &-steps{
+      width: 620px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      h4{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31.2px;
+        color: white;
+        border-bottom: 3px solid rgba(231, 116, 46, 1);
+        padding-bottom: 20px;
+        margin: 0;
+      }
+      .step{
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        h1{
+          font-size: 96px;
+          font-weight: 400;
+          line-height: 80.64px;
+          text-align: center;
+          color: rgba(231, 116, 46, 1);
+          margin: 0;
+        }
+        p{
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 25.2px;
+          text-align: left;
+          color: white;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

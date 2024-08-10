@@ -1,0 +1,54 @@
+.Reviews{
+  display: flex;
+  flex-direction: column;
+  h1{
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(231, 116, 46, 1);
+  }
+  &_content{
+    background-image: url("/Images/Reviews_images/links_background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .info{
+      width: 1080px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 1em;
+      a{
+        display: inline;
+        color: rgba(231, 116, 46, 1);
+      }
+      p{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31.2px;
+        color: white;
+      }
+      .line{
+        border-bottom: 3px solid rgba(231, 116, 46, 1);
+      }
+      .links{
+        display: flex;
+        gap: 50px;
+        .link{
+          display: flex;
+          gap: 20px;
+          align-items: center;
+        }
+      }
+    }
+  }
+  &_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/Images/Reviews_images/Review_form_background.jpg");
+    h1{
+      border-bottom: 3px solid white;
+    }
+  }
+}

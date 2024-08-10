@@ -1,0 +1,27 @@
+.Staff{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  font-size: 18px;
+  h1{
+    color: rgba(11, 20, 39, 1);
+    font-size: 48px;
+    font-weight: 500;
+    border-bottom: 3px solid rgba(231, 116, 46, 1);
+  }
+  &_content{
+    width: 1080px;
+    .ourStaff{
+      display: flex;
+      justify-content: space-between;
+      .worker{
+        h3{
+          font-size: 24px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

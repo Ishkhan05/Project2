@@ -1,0 +1,79 @@
+.Header{
+  background-color: rgb(11, 20, 39);
+  height: 188px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .Header_content{
+    width: 684px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .Header_content_info{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+      .numbers{
+        display: flex;
+        align-items: center;
+        p{
+          color: white;
+          font-size: 24px;
+          font-weight: 500;
+          margin: 0;
+        }
+        i{
+          color: rgb(231, 116, 46);
+          font-size: 42px;
+        }
+      }
+      .SocialMedia{
+        width: 136px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    nav{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+      a{
+        border-left: 3px solid rgb(231, 116, 46);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 0 0 10px;
+        &:nth-child(1){
+          border: none;
+        }
+      }
+      .active__link{
+        color: rgb(231, 116, 46);
+      }
+    }
+    .ServicesNav{
+      position: absolute;
+      top: 80px;
+      left: 190px;
+      height: 408px;
+      width: 274px;
+      background-color: rgba(11, 20, 39, 0.7);
+      z-index: 1;
+      a{
+        color: white;
+        height: 43px;
+        padding-left: 20px;
+        border-bottom: 1px solid rgb(231, 116, 46);
+        &:nth-child(1){
+          border-top: 1px solid rgb(231, 116, 46);
+        }
+      }
+    }
+  }
+}

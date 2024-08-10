@@ -1,0 +1,21 @@
+.About{
+  display: flex;
+  flex-direction: column;
+  &_content{
+    display: flex;
+    flex-direction: column;
+    h1{
+      font-size: 48px;
+      font-weight: 500;
+      color: rgba(231, 116, 46, 1);
+      text-align: center;
+    }
+    .priceLink{
+      font-size: 20px;
+      font-weight: 500;
+      padding-bottom: 5px;
+      border-bottom: 3px solid rgba(231, 116, 46, 1);
+      margin: 0 auto;
+    }
+  }
+}

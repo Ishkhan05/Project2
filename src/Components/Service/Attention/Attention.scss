@@ -1,0 +1,25 @@
+.Attention{
+    width: 100%;
+    background-color: rgba(11, 20, 39, 1);
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    &__content{
+      width: 1080px;
+      border-top: 3px solid rgba(231, 116, 46, 1);
+      border-bottom: 3px solid rgba(231, 116, 46, 1);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      i{
+        color: rgba(231, 116, 46, 1);
+        font-size: 75px;
+      }
+      p{
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 31.2px;
+      }
+    }
+}

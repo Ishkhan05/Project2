@@ -1,0 +1,46 @@
+.ComputerUpgrade{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__content{
+    width: 1080px;
+    padding-top: 30px;
+    p{  
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25.2px;
+    }
+    h3{
+      font-size: 29px;
+      font-weight: 500;
+      line-height: 34.8px;
+      color: rgba(231, 116, 46, 1);
+    }
+  }
+  &__price{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    h1{
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 57.6px;
+      border-bottom: 3px solid rgba(231, 116, 46, 1);
+    }
+    p{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25.2px;
+    }
+    a{
+      padding: 15px 32px 15px 32px;
+      border-radius: 10px;
+      background: radial-gradient(50% 50% at 50% 50%, #F7A70C 0%, #E7742E 100%);
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21.6px;
+    }
+  }
+}

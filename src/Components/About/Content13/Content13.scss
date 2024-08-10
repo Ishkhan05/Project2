@@ -1,0 +1,32 @@
+.Content13{
+  background-image: url("/Images/About_images/Content13.jpg");
+  height: 622px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    color: white;
+  }
+  &_content{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .brands{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-bottom: 3px solid rgba(231, 116, 46, 1);
+      border-top: 3px solid rgba(231, 116, 46, 1);
+      padding: 20px 0 20px 0;
+    }
+    p{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+      color: white;
+    }
+  }
+}

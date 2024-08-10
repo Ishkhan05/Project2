@@ -1,0 +1,96 @@
+.Content14{
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  &_content{
+    width: 1080px;
+    .items{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      .item{
+        width: 324px;
+        height: 191px;
+        padding: 10px;
+        h1{
+          margin: 10px;
+          span{
+            font-size: 24px;
+          }
+        }
+        h4{
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 23.4px;
+          text-align: center;
+        }
+      }
+      .verticalLines{
+        height: 175px;
+        border: 1px solid rgba(11, 20, 39, 1);
+        position: absolute;
+      }
+      .horizontalLines{
+        width: 318px;
+        border: 1px solid rgba(11, 20, 39, 1);
+        position: absolute;
+      }
+      .line1{
+        top: 20px;
+        left: 367px;
+      }
+      .line2{
+        top: 20px;
+        left: 711.5px;
+      }
+      .line3{
+        top: 5px;
+        left: 36px;
+      }
+      .line4{
+        top: 5px;
+        left: 380px;
+      }
+      .line5{
+        top: 5px;
+        left: 725px;
+      }
+      .line6{
+        top: 210px;
+        left: 36px;
+      }
+      .line7{
+        top: 210px;
+        left: 380px;
+      }
+      .line8{
+        top: 210px;
+        left: 725px;
+      }
+      .frames{
+        position: absolute;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        background-color: rgba(231, 116, 46, 1);
+        border: none;
+      }
+      .frame1{
+        top: 0;
+        left: 362px;
+      }
+      .frame2{
+        top: 0;
+        left: 707px;
+      }
+      .frame3{
+        top: 205px;
+        left: 362px;
+      }
+      .frame4{
+        top: 205px;
+        left: 707px;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.Footer{
+  background-color: rgb(11, 20, 39);
+  height: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_Content{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    height: 374px;
+    .About{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 252px;
+      text-align: left;
+      color:rgb(255, 255, 255);
+      font-size: 14px;
+      line-height: 15.6px;
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      a{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .Navigation{
+      gap: 20px;
+    }
+    .Service{
+      justify-content: space-between;
+    }
+    .contacts{
+      .Numbers{
+        display: flex;
+        align-items: center;
+        p{
+          color: white;
+          font-size: 24px;
+          font-weight: 500;
+          margin: 0;
+        }
+        i{
+          color: rgb(231, 116, 46);
+          font-size: 42px;
+        }
+      }
+      .Contacts_Content{
+        margin: 10px 0 30px 0;
+        p{
+          font-size: 16px;
+          font-weight: 500;
+          text-align: left;
+          color: rgb(255, 255, 255);
+          i{
+            color: rgb(231, 116, 46);
+          }
+        }
+
+      }
+      .SocialMedia{
+        width: 136px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

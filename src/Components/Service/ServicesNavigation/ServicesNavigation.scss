@@ -1,0 +1,14 @@
+.ServicesNavigation{
+  width: 1080px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  a{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+  }
+  .active__link{
+    color: rgb(231, 116, 46);;
+  }
+}

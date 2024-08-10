@@ -1,0 +1,25 @@
+.Content10{
+  background-image: url("/Images/About_images/Content1.jpg");
+  &_content{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em;
+    gap: 10px;
+    p{
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 25.2px;
+      color: white;
+      a{
+        display: inline;
+        color: rgba(231, 116, 46, 1);
+      }
+    }
+    span{
+      width: 1080px;
+      border-bottom: 3px solid rgba(231, 116, 46, 1);
+    }
+  }
+}

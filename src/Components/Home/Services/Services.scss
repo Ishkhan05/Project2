@@ -1,0 +1,65 @@
+.Services{
+  margin: 0 auto;
+  width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  &_Elements{
+    width: 344px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    .image_content{
+      display: flex;
+      align-items: flex-end;
+      .lines{
+        width: 80px;
+        border-bottom: 1px solid rgba(11, 20, 39, 1);
+      }
+    }
+    h1{
+      width: 330px;
+      text-align: center;
+      font-size: 29px;
+      font-weight: 500;
+      line-height: 34.8px;
+      text-align: center;
+
+    }
+    ul{
+      padding: 0;
+      width: 95%;
+      li{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        &.andMore{
+          padding-left: 30px;
+        }
+        i{
+          color: rgb(231, 116, 46);
+          font-size: 25px;
+        }
+      }
+    }
+    a{
+      padding: 15px 32px;
+      background-color: rgb(222, 222, 222);
+      border: none;
+      border-radius: 10px;
+      font-weight: 900;
+      color: rgb(11, 20, 39);
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      &:hover{
+        background-color: rgba(222, 222, 222, 0.8);
+      }
+    }
+  }
+}

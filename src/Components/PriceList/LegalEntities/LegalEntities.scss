@@ -1,0 +1,77 @@
+.LegalEntities{
+  width: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+  }  
+  .slice{
+    .item{
+      background-color: rgba(11, 20, 39, 1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgba(231, 116, 46, 1);
+      padding: 10px 30px 10px 20px;
+      h4{
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+      i{
+        cursor: pointer;
+        font-size: 35px;
+      }
+    }
+    .items{
+      border-bottom: 1px solid rgba(222, 222, 222, 1);
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 30px 10px 20px;
+    }
+
+    .Apple{
+      &_products{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 10px;
+        background-color: rgba(222, 222, 222, 1);
+        h4{
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 28px;
+          margin: 0;
+        }
+        i{
+          color: rgba(231, 116, 46, 1);
+          font-size: 45px;
+        }
+      }
+      &_product{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px 10px 20px;
+        background-color: rgba(245, 245, 245, 1);
+        border-bottom: 1px solid rgba(222, 222, 222, 1);
+        i{
+          color: rgba(231, 116, 46, 1);
+          font-size: 38px;
+        }
+        h5{
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 23.4px;
+          text-align: left;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
