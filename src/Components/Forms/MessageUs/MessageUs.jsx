@@ -26,7 +26,7 @@ export default function MessageUs() {
       createdAt: moment().format('L')
     }
     axios.post('http://localhost:3000/messageUs', message)
-      .then(res => {
+      .then(() => {
         formik.resetForm();
       })
   }

@@ -11,7 +11,7 @@ export default function Blog() {
   const [state, dispatch] = useReducer(blogReducer, initialState)
   const [blogsCount, setBlogsCount] = useState(0)
   const [page, setPage] = useState(1)
-  const [perPage, setPerPage] = useState(9)
+  const [perPage] = useState(9)
 
   useEffect(() => {
     axios.all(

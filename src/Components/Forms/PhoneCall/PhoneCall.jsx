@@ -28,7 +28,7 @@ export default function PhoneCall() {
       id: nanoid(5)
     }
     axios.post('http://localhost:3000/needCall', needPhoneCall)
-      .then(res => {
+      .then(() => {
         formik.resetForm();
       })
       .finally(value.consultationIsDone())

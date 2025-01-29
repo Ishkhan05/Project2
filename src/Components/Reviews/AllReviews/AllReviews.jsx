@@ -8,7 +8,7 @@ export default function AllReviews() {
   const [state, dispatch] = useReducer(feedbackReducer, initialState)
   const [feedbacksCount, setFeedbacksCount] = useState(0)
   const [page, setPage] = useState(1)
-  const [perPage, setPerPage] = useState(6)
+  const [perPage] = useState(6)
 
   useEffect(() => {
     axios.all(
