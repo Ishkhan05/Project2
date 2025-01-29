@@ -9,7 +9,7 @@ export default function ProgramInstalling() {
   return (
     <div className='ProgramInstalling'>
       <ServicesNavigation/>
-      <Title image={"/Images/Home_images/Windows.svg"} header={"ОПЕРАЦИОННЫЕ СИСТЕМЫ И ПРОГРАММЫ"}/>
+      <Title header={"ОПЕРАЦИОННЫЕ СИСТЕМЫ И ПРОГРАММЫ"} image={"/Images/Home_images/Windows.svg"}/>
       <div className="ProgramInstalling__content">
         <p>Если Ваш компьютер тормозит и часто выдает ошибки, самопроизвольно перезагружается, то скорей всего операционная система либо устарела, либо нуждается в замене. </p>
         <div className='ProgramInstalling__content-box'>

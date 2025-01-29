@@ -1,6 +1,6 @@
 import "./Title.scss"
 
-export default function Title({header,image}) {
+export default function Title({header, image}) {
   return (
     <div className='Title'>
       <img src={image}/>

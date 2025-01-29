@@ -9,7 +9,7 @@ export default function ComputerUpgrade() {
   return (
     <div className='ComputerUpgrade'>
       <ServicesNavigation/>
-      <Title image={"/Images/Home_images/Upgrade.png"} header={"СБОРКА И АПГРЕЙД КОМПЮТЕРОВ"}/>
+      <Title header={"СБОРКА И АПГРЕЙД КОМПЮТЕРОВ"} image={"/Images/Home_images/Upgrade.png"}/>
       <div className="ComputerUpgrade__content">
         <p>Если при всем разнообразии выбора вы не можете подобрать компьютер подходящей конфигурации, соответствующей всем вашим потребностям, мы предлагаем услугу – сборка компьютера «под ключ»: подбор комплектующих, доставка, сборка и установка необходимых программ в вашем присутствии.</p>
         <h3>ИНДИВИДУАЛЬНАЯ СБОРКА ПК - ЭТО ИДЕАЛЬНОЕ СООТНОШЕНИЕ ПРОИЗВОДИТЕЛЬНОСТИ, ЦЕНЫ И КАЧЕСТВА</h3>

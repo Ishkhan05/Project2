@@ -9,7 +9,7 @@ export default function VirusRemoval() {
   return (
     <div className='VirusRemoval'>
       <ServicesNavigation/>
-      <Title image={"/Images/Home_images/Viruses.png"} header={"УДАЛЕНИЕ ВИРУСОВ"}/>
+      <Title header={"УДАЛЕНИЕ ВИРУСОВ"} image={"/Images/Home_images/Viruses.png"}/>
       <div className="VirusRemoval__content">
         <p>Если Ваш компьютер заражен вирусом, ни в коем случае не пытайтесь справиться с проблемой самостоятельно, не рискуйте потерять данные или полностью вывести компьютер из строя. Удаление вирусов и вредоносных программ без последствий – сложная работа, выполнить которую может только компетентный специалист по компьютерной безопасности.</p>
         <div className='VirusRemoval__content-box'>

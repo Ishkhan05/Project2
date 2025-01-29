@@ -16,7 +16,7 @@ export default function ComputerRepair() {
     <div className='ComputerRepair'>
       <AllModals/>
       <ServicesNavigation/>
-      <Title image={"/Images/Home_images/Computers.svg"} header={"РЕМОНТ КОМПЬЮТЕРОВ"}/>
+      <Title header={"РЕМОНТ КОМПЬЮТЕРОВ"} image={"/Images/Home_images/Computers.svg"}/>
       <div className="ComputerRepair__content">
         <p>Если Ваш компьютер начал работать со сбоями, издавать странные звуки или вообще перестал включаться, рекомендуем срочно обратиться к специалисту, не пытаясь самостоятельно найти причину поломки. Это позволит вам избежать лишних финансовых затрат и сэкономит время. Как правило неисправность компьютера может быть вызвана аппаратными или программными сбоями. </p>
         <div className='ComputerRepair__content-box'>
