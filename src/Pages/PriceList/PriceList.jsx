@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import Individuals from '../../Components/PriceList/Individuals/Individuals'
 import LegalEntities from '../../Components/PriceList/LegalEntities/LegalEntities'
 import classNames from 'classnames'

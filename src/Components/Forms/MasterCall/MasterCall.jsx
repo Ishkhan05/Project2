@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext } from 'react'
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import { Link } from 'react-router-dom'
 import { boolean, object, string } from "yup"
@@ -26,7 +26,7 @@ const validationSchema = object({
   accept: boolean().oneOf([true], "Необходимо дать согласие на обработку персональных данных")
 })
 
-export default function MasterCall({size = 'small'}) {
+export default function MasterCall({size}) {
   const value = useContext(MyContext)
   const handleSubmit = (values,formik)=>{
     const needMaster = {
@@ -34,7 +34,7 @@ export default function MasterCall({size = 'small'}) {
       id: nanoid(5)
     }
     axios.post('http://localhost:3000/needMaster', needMaster)
-      .then(res => {
+      .then(() => {
         formik.resetForm();
       })
       .finally(value.handleDone())
@@ -52,7 +52,7 @@ export default function MasterCall({size = 'small'}) {
           (formik)=>{
             return(
               <Form className={classNames ({
-                [`${size}`]: true
+                [`${ size }`]: true
               })}>
                 <label htmlFor="device">
                   <p>Выберите устройство <span>*</span></p>
@@ -113,4 +113,9 @@ export default function MasterCall({size = 'small'}) {
       </Formik>  
     </div>
   )
+}
+
+
+MasterCall.defaultProps ={
+  size: 'small'
 }

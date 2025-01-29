@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Contacts.scss"
 import MessageUs from '../../Components/Forms/MessageUs/MessageUs'
 

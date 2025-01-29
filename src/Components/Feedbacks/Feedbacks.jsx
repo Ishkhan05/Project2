@@ -1,5 +1,5 @@
 import "./Feedbacks.scss"
-import React, { useEffect, useReducer, useState } from 'react'
+import { useEffect, useReducer, useState } from 'react'
 import feedbackReducer, { initialState } from './feedbackReducer'
 import axios from "axios"
 import ReactPaginate from 'react-paginate';
@@ -9,7 +9,7 @@ export default function Feedbacks() {
   const [state, dispatch] = useReducer(feedbackReducer, initialState)
   const [feedbacksCount, setFeedbacksCount] = useState(0)
   const [page, setPage] = useState(1)
-  const [perPage, setPerPage] = useState(3)
+  const [perPage] = useState(3)
 
   useEffect(() => {
     axios.all(

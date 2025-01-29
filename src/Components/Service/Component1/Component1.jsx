@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Component1.scss"
 import MasterCall from '../../Forms/MasterCall/MasterCall'
 

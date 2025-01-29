@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Content2.scss"
 
 export default function Content2() {

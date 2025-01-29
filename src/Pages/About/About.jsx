@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import "./About.scss"
 import Content10 from '../../Components/About/Content10/Content10'
 import Staff from '../../Components/Staff/Staff'

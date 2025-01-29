@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer, useState } from 'react'
+import { useEffect, useReducer, useState } from 'react'
 import PhoneCall from '../../Components/Forms/PhoneCall/PhoneCall'
 import MessageUs from '../../Components/Forms/MessageUs/MessageUs'
 import blogReducer, { initialState } from './blogReducer'

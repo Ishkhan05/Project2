@@ -1,4 +1,3 @@
-import React from 'react'
 import "./StepsOfWork.scss"
 import MasterCall from '../../Forms/MasterCall/MasterCall'
 

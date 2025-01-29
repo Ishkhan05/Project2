@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import ServicesNavigation from '../../Components/Service/ServicesNavigation/ServicesNavigation'
 import "./ComputerRepair.scss"
 import Component1 from '../../Components/Service/Component1/Component1'

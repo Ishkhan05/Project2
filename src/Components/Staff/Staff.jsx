@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Staff.scss"
 
 export default function Staff() {

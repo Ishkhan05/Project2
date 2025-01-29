@@ -1,6 +1,6 @@
 import axios from 'axios';
 import classNames from 'classnames';
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function PriceListForIndividuals() {
   const [individuals, setIndividuals] = useState()

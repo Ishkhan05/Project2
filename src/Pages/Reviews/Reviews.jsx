@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Reviews.scss"
 import { Link } from 'react-router-dom'
 import AllReviews from '../../Components/Reviews/AllReviews/AllReviews'
@@ -10,7 +9,7 @@ export default function Reviews() {
       <h1>ОТЗЫВЫ КЛИЕНТОВ</h1>
       <div className="Reviews_content">
         <div className='info'>
-          <p>Мы ориентированы на долгосрочное сотрудничество с нашими клиентами и на рекомендации. Просим вас после ремонта, выполненного нашими специалистами, оставить честный отзыв о нашей работе на этой странице или на независимых сайтах <Link to="https://www.otzovik.com/" target='_blanc'>www.otzovik.com</Link> и <Link to="https://www.irecommend.ru/" target='_blanc'>www.irecommend.ru</Link> </p>
+          <p>Мы ориентированы на долгосрочное сотрудничество с нашими клиентами и на рекомендации. Просим вас после ремонта, выполненного нашими специалистами, оставить честный отзыв о нашей работе на этой странице или на независимых сайтах <Link to="https://www.otzovik.com/" target='_blanc'>www.otzovik.com</Link> и <Link to="https://www.irecommend.ru/" target='_blanc'>www.irecommend.ru</Link></p>
           <div className='line'></div>
           <div className='links'>
             <div className="link">

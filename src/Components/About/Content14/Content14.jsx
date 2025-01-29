@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Content14.scss"
 
 export default function Content14() {

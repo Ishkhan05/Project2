@@ -1,5 +1,5 @@
 import "./AllReviews.scss"
-import React, { useEffect, useReducer, useState } from 'react'
+import { useEffect, useReducer, useState } from 'react'
 import feedbackReducer, { initialState } from '../../Feedbacks/feedbackReducer'
 import axios from "axios"
 import ReactPaginate from 'react-paginate';

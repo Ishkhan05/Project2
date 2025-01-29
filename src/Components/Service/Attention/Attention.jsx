@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Attention.scss"
 
 export default function Attention() {

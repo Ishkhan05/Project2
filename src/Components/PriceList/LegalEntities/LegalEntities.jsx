@@ -1,4 +1,3 @@
-import React from 'react'
 import "./LegalEntities.scss"
 import PriceListForLegalEntities from './PriceListForLegalEntities'
 

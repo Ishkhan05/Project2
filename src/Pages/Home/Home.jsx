@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext } from 'react'
 import Services from '../../Components/Home/Services/Services'
 import Content2 from '../../Components/Home/Content2/Content2'
 import Content4 from '../../Components/Home/Content4/Content4'

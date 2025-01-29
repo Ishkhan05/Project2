@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { ErrorMessage, Field, Form, Formik } from 'formik'
 import { Link } from 'react-router-dom'
 import { object, string } from 'yup'
@@ -27,7 +26,7 @@ export default function LeaveAReview() {
       createdAt: moment().format('L')
     }
     axios.post('http://localhost:3000/feedback', comment)
-      .then(res => {
+      .then(() => {
         formik.resetForm();
       })
   }

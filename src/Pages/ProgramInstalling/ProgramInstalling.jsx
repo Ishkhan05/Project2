@@ -1,4 +1,3 @@
-import React from 'react'
 import "./ProgramInstalling.scss"
 import ServicesNavigation from '../../Components/Service/ServicesNavigation/ServicesNavigation'
 import Title from '../../Components/Service/Title/Title'
@@ -36,7 +35,7 @@ export default function ProgramInstalling() {
           <li><i className="bi bi-check"></i> Установка драйверов для периферийных устройств</li>
           <li><i className="bi bi-check"></i> Удаление вирусов и установка антивирусного ПО</li>
           <li><i className="bi bi-check"></i> Восстановление случайно удаленных данных</li>
-          <li><i className="bi bi-check"></i> Рекомендации мастера по правильной и безопасной работе с компьютером.</li>
+          <li><i className="bi bi-check"></i> Рекомендации мастера по правильной и безопасной работе с компьютером.</li>
         </ul>
         <p>Все услуги по компьютерной помощи наш сервис оказывает не только при выезде к клиенту, но и с помощью программ удаленной поддержки в рамках абонентского обслуживания. В своей работы мы используем только лицензионное программное обеспечение. </p>
       </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import BrandsImgLink from '../../../Constants/BrandsImgLink'
 import "./Content13.scss"
 

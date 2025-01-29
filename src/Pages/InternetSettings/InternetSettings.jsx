@@ -1,4 +1,3 @@
-import React from 'react'
 import "./InternetSettings.scss"
 import ServicesNavigation from '../../Components/Service/ServicesNavigation/ServicesNavigation'
 import Title from '../../Components/Service/Title/Title'

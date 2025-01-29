@@ -1,4 +1,3 @@
-import React from 'react'
 import MasterCall from '../../Forms/MasterCall/MasterCall'
 import "./Content3.scss"
 export default function Content3() {
